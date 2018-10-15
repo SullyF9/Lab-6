@@ -1,3 +1,5 @@
+import com.sun.xml.internal.bind.v2.runtime.output.SAXOutput;
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
@@ -28,6 +30,7 @@ public class SciCalculator
                 System.out.println("5. Exponentiation");
                 System.out.println("6. Logarithm");
                 System.out.println("7. Display Average");
+                System.out.println("8. Make a Change to a Previous Lab");
 
                 System.out.print("\nEnter Menu Selection: ");
 
